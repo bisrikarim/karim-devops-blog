@@ -2,7 +2,8 @@ baseURL: "https://bisrikarim.github.io/karim-devops-blog/"
 languageCode: "en-us"
 title: "karim.devops"
 theme: "PaperMod"
-paginate: 10
+pagination:
+  pagerSize: 10
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
