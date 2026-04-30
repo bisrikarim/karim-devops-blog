@@ -52,7 +52,7 @@ jobs:
           sudo mv hugo /usr/local/bin/
 
       - name: Build site
-        run: hugo --minify --gc
+        run: hugo --minify --gc --baseURL "https://bisrikarim.github.io/karim-devops-blog/"
         env:
           HUGO_ENVIRONMENT: production
 
