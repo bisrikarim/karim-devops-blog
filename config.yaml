@@ -1,0 +1,166 @@
+baseURL: "https://karimdevops.github.io/"
+languageCode: "en-us"
+title: "karim.devops"
+theme: "PaperMod"
+paginate: 10
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "karim.devops"
+  description: "DevOps / SRE / Platform Engineering"
+  keywords: [DevOps, SRE, Platform Engineering, Kubernetes, Terraform, GitLab, CI/CD]
+  author: ""
+  images: ["/images/avatar.png"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    favicon: ""
+    favicon16x16: ""
+    favicon32x32: ""
+    apple_touch_icon: ""
+    safari_pinned_tab: ""
+    disableFingerprinting: true
+    customCSS:
+      - css/custom.css
+
+  label:
+    text: "karim.devops"
+    icon: ""
+    iconHeight: 35
+
+  profileMode:
+    enabled: true
+    title: "karim.devops"
+    subtitle: "DevOps / SRE / Platform Engineering"
+    imageUrl: "/images/avatar.png"
+    imageWidth: 96
+    imageHeight: 96
+    imageTitle: "Karim Bisri"
+    buttons:
+      - name: Posts
+        url: /posts
+      - name: About
+        url: /about
+
+  homeInfoParams:
+    Title: ""
+    Content: ""
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/bisrikarim"
+    - name: linkedin
+      url: "https://linkedin.com/in/bisrikarim"
+    - name: email
+      url: "mailto:bisri.karim@gmail.com"
+    - name: rss
+      url: "index.xml"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  editPost:
+    URL: "https://github.com/karimdevops/karimdevops.github.io/edit/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  analytics:
+    google:
+      SiteVerificationTag: ""
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: uses
+      name: Uses
+      url: /uses/
+      weight: 30
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
+
+taxonomies:
+  tag: tags
+  category: categories
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    privacy: true
