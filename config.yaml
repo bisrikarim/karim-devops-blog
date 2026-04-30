@@ -49,7 +49,7 @@ params:
     safari_pinned_tab: ""
     disableFingerprinting: true
     customCSS:
-      - css/custom.css
+      - /karim-devops-blog/css/custom.css
 
   label:
     text: "karim.devops"
