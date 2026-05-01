@@ -46,7 +46,6 @@ I believe infrastructure should be boring in production — predictable, observa
 ## Contact
 
 - **GitHub**: [github.com/bisrikarim](https://github.com/bisrikarim)
-- **LinkedIn**: [linkedin.com/in/bisrikarim](https://linkedin.com/in/bisrikarim)
 - **Email**: [bisri.karim@gmail.com](mailto:bisri.karim@gmail.com)
 
 ## QR Code — LinkedIn
