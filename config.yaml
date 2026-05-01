@@ -61,8 +61,8 @@ params:
     title: "karim.devops"
     subtitle: "DevOps / SRE / Platform Engineering"
     imageUrl: "/karim-devops-blog/images/avatar.png"
-    imageWidth: 96
-    imageHeight: 96
+    imageWidth: 160
+    imageHeight: 160
     imageTitle: "Karim Bisri"
     buttons:
       - name: Posts
