@@ -6,6 +6,8 @@ comments: false
 showToc: false
 ---
 
+{{< figure src="/karim-devops-blog/images/avatar.png" alt="Karim Bisri" width="110" style="border-radius:50%;border:2px solid #e0e0e0;margin-bottom:1rem;" >}}
+
 ## Who I am
 
 DevSecOps & Automation Engineer with 8+ years of experience designing, securing, and automating infrastructure at scale. Currently based in Casablanca, Morocco.
