@@ -53,4 +53,4 @@ I believe infrastructure should be boring in production — predictable, observa
 
 Scan to connect:
 
-{{< figure src="/images/linkedin-qr.png" alt="LinkedIn QR Code" width="180" >}}
+{{< figure src="/karim-devops-blog/images/linkedin-qr.png" alt="LinkedIn QR Code" width="180" >}}
