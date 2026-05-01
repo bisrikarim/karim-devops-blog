@@ -6,7 +6,7 @@ comments: false
 showToc: false
 ---
 
-{{< figure src="/karim-devops-blog/images/avatar.png" alt="Karim Bisri" width="200" style="border-radius:50%;border:2px solid #e0e0e0;margin-bottom:1rem;" >}}
+{{< figure src="/karim-devops-blog/images/avatar.png" alt="Karim Bisri" width="110" style="border-radius:50%;border:2px solid #e0e0e0;margin-bottom:1rem;" >}}
 
 ## Who I am
 
