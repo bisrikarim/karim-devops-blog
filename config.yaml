@@ -66,9 +66,9 @@ params:
     imageTitle: "Karim Bisri"
     buttons:
       - name: Posts
-        url: /karim-devops-blog/posts/
+        url: /posts/
       - name: About
-        url: /karim-devops-blog/about/
+        url: /about/
 
   homeInfoParams:
     Title: ""
@@ -111,7 +111,7 @@ menu:
   main:
     - identifier: posts
       name: Posts
-      url: /karim-devops-blog/posts/
+      url: /posts/
       weight: 10
     - identifier: tags
       name: Tags
@@ -127,7 +127,7 @@ menu:
       weight: 40
     - identifier: about
       name: About
-      url: /karim-devops-blog/about/
+      url: /about/
       weight: 50
 
 taxonomies:
