@@ -66,9 +66,9 @@ params:
     imageTitle: "Karim Bisri"
     buttons:
       - name: Posts
-        url: /posts/
+        url: /karim-devops-blog/posts/
       - name: About
-        url: /about/
+        url: /karim-devops-blog/about/
 
   homeInfoParams:
     Title: ""
