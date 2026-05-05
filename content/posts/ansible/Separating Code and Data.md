@@ -1,5 +1,5 @@
 ---
-title: "Ansible Chapter 3: Separating Code and Data – Variables, Facts, and Templates"
+title: "Separating Code and Data – Variables, Facts, and Templates"
 date: 2026-05-05
 draft: false
 tags: ["ansible", "variables", "facts", "jinja2", "templates", "mysql", "nginx", "devops", "infrastructure-as-code"]
