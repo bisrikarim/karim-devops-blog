@@ -41,3 +41,24 @@
   box-shadow: 0 4px 12px rgba(85,153,255,0.3) !important;
 }
 </style>
+<style>
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #5599ff;
+  z-index: 9999;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+</style>
+<div id="reading-progress"></div>
+<script>
+window.addEventListener('scroll', function() {
+  var el = document.getElementById('reading-progress');
+  var scrollTop = window.scrollY;
+  var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  el.style.width = (docHeight > 0 ? (scrollTop / docHeight) * 100 : 0) + '%';
+}, { passive: true });
+</script>
