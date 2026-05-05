@@ -1,6 +1,11 @@
-# 🌩️ Introduction to AWS Services
-### A Beginner's Guide for the AWS Certified Cloud Practitioner
-
+---
+title: "Introduction to AWS Services — A Beginner's Guide for the AWS Certified Cloud Practitioner"
+description: "A simple breakdown of all major AWS services to help you pass the Cloud Practitioner certification."
+date: 2026-05-05
+tags: ["aws", "cloud", "certification", "devops"]
+author: "Karim"
+showToc: true
+draft: false
 ---
 
 ## ☁️ What is AWS?
