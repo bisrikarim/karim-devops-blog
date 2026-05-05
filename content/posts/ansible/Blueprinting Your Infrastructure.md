@@ -9,10 +9,8 @@ tocOpen: true
 comments: true
 ---
 
-# Chapter 1: Blueprinting Your Infrastructure
-
-Think of Ansible like a **recipe book for your servers**.  
-Instead of logging into 10 machines one by one and doing the same thing, you write the recipe once — and Ansible does it everywhere at the same time.
+# Think of Ansible like a **recipe book for your servers**.  
+# Instead of logging into 10 machines one by one and doing the same thing, you write the recipe once — and Ansible does it everywhere at the same time.
 
 ---
 
