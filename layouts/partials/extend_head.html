@@ -1,4 +1,3 @@
-{{- /* Reading progress bar */ -}}
 <style>
 #reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: #5599ff; z-index: 9999; width: 0%; transition: width 0.1s linear; }
 .social-icons a { transition: transform 0.2s ease, opacity 0.2s ease; display: inline-block; }
@@ -8,8 +7,6 @@
 #menu a:hover { letter-spacing: 0.05em; color: #5599ff; }
 .button { transition: transform 0.2s ease, box-shadow 0.2s ease !important; }
 .button:hover { transform: translateY(-3px) !important; box-shadow: 0 4px 12px rgba(85,153,255,0.3) !important; }
-.infinity-logo { display: inline-block; vertical-align: middle; margin-right: 6px; animation: pulse 2s ease-in-out infinite; }
-@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.7;transform:scale(1.1)} }
 </style>
 <div id="reading-progress"></div>
 <script>
@@ -18,15 +15,4 @@ window.addEventListener('scroll', function() {
   var d = document.documentElement;
   el.style.width = (d.scrollHeight - d.clientHeight > 0 ? (window.scrollY / (d.scrollHeight - d.clientHeight)) * 100 : 0) + '%';
 }, { passive: true });
-document.addEventListener('DOMContentLoaded', function() {
-  var logo = document.querySelector('.logo a');
-  if (logo) {
-    var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    svg.setAttribute('width', '22'); svg.setAttribute('height', '14');
-    svg.setAttribute('viewBox', '0 0 22 14'); svg.setAttribute('fill', 'none');
-    svg.setAttribute('class', 'infinity-logo');
-    svg.innerHTML = '<path d="M11 7C11 7 8.5 2 5 2C2.8 2 1 3.8 1 6S2.8 10 5 10C8.5 10 11 7 11 7ZM11 7C11 7 13.5 2 17 2C19.2 2 21 3.8 21 6S19.2 10 17 10C13.5 10 11 7 11 7Z" stroke="#5599ff" stroke-width="2" stroke-linecap="round"/>';
-    logo.insertBefore(svg, logo.firstChild);
-  }
-});
 </script>
