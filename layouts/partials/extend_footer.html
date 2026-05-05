@@ -1,1 +1,8 @@
-{{- /* Custom footer content */ -}}
+<div id="reading-progress"></div>
+<script>
+window.addEventListener('scroll', function() {
+  var el = document.getElementById('reading-progress');
+  var d = document.documentElement;
+  el.style.width = (d.scrollHeight - d.clientHeight > 0 ? (window.scrollY / (d.scrollHeight - d.clientHeight)) * 100 : 0) + '%';
+}, { passive: true });
+</script>
