@@ -81,8 +81,6 @@ params:
       url: "https://www.linkedin.com/in/karim-bisri/"
     - name: email
       url: "mailto:bisri.karim@gmail.com"
-    - name: rss
-      url: "index.xml"
 
   cover:
     hidden: true
