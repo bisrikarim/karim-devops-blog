@@ -1,10 +1,10 @@
-/* Logo light/dark theme switch */
+/* Logo light/dark theme switch - target html.dark used by PaperMod */
 .logo-light { display: none; }
 .logo-dark { display: inline; }
-body.dark .logo-light { display: none; }
-body.dark .logo-dark { display: inline; }
-body:not(.dark) .logo-light { display: inline; }
-body:not(.dark) .logo-dark { display: none; }
+html.dark .logo-light { display: none; }
+html.dark .logo-dark { display: inline; }
+html:not(.dark) .logo-light { display: inline; }
+html:not(.dark) .logo-dark { display: none; }
 /* ================================================================
    karim.devops — Custom CSS
    Monospace-first, minimal, developer-aesthetic
