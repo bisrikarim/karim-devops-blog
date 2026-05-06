@@ -52,7 +52,7 @@ params:
       - css/custom.css
 
   label:
-    text: "karim.devops"
+    text: ""
     icon: "images/logo.png"
     iconHeight: 35
 
