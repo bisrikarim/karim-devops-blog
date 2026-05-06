@@ -53,7 +53,7 @@ params:
 
   label:
     text: "karim.devops"
-    icon: ""
+    icon: "images/logo.png"
     iconHeight: 35
 
   profileMode:
