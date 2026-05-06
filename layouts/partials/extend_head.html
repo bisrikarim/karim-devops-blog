@@ -7,4 +7,12 @@
 #menu a:hover { letter-spacing: 0.05em; color: #5599ff; }
 .button { transition: transform 0.2s ease, box-shadow 0.2s ease !important; }
 .button:hover { transform: translateY(-3px) !important; box-shadow: 0 4px 12px rgba(85,153,255,0.3) !important; }
+
+/* Logo light/dark theme switch */
+.logo-light { display: none; }
+.logo-dark { display: inline; }
+html[data-theme="dark"] .logo-light { display: none; }
+html[data-theme="dark"] .logo-dark { display: inline; }
+html[data-theme="light"] .logo-light { display: inline; }
+html[data-theme="light"] .logo-dark { display: none; }
 </style>
