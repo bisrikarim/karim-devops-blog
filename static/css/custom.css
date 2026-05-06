@@ -1,3 +1,8 @@
+/* Logo light/dark theme switch */
+.logo-light { display: none; }
+.logo-dark { display: inline; }
+body.light .logo-light { display: inline; }
+body.light .logo-dark { display: none; }
 /* ================================================================
    karim.devops — Custom CSS
    Monospace-first, minimal, developer-aesthetic
