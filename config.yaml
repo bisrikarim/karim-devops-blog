@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production
-  title: "karim.devops"
+  title: "pods-and-coffee"
   description: "DevOps / SRE / Platform Engineering"
   keywords: [DevOps, SRE, Platform Engineering, Kubernetes, Terraform, GitLab, CI/CD]
   author: ""
